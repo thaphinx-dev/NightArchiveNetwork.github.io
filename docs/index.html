@@ -1,1 +1,85 @@
-<h1>IT IS ALIVE</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Night Archive | Official Podcast</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 5px 5px 0px #000;
+        }
+        h1 {
+            text-transform: uppercase;
+            border-bottom: 2px solid black;
+            padding-bottom: 10px;
+        }
+        .episode {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed #999;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 0.8em;
+            color: #666;
+            text-align: center;
+        }
+        
+        /* --- THE HORROR MECHANIC --- */
+        /* Text is white on white (invisible) until highlighted */
+        .ghost-text {
+            color: white;
+            background-color: white;
+        }
+        /* When the user selects the text, it turns RED */
+        .ghost-text::selection {
+            background: red;
+            color: black;
+        }
+        /* For Firefox support */
+        .ghost-text::-moz-selection {
+            background: red;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>The Night Archive</h1>
+        <p>Welcome to the official archive of <strong>The Night Archive Podcast</strong>. Join host Alex Vance as he explores urban legends, ghost stories, and the things that go bump in the night.</p>
+        
+        <h2>Latest Episodes</h2>
+
+        <div class="episode">
+            <h3>Ep 05: The Hollow Man</h3>
+            <p>Alex discusses the local legend of the man who lives in the pipes. <span class="ghost-text">THE PIPES ARE LISTENING.</span> Also, a listener submission about a mirror that doesn't reflect correctly.</p>
+            <a href="#">Listen on Spotify</a>
+        </div>
+
+        <div class="episode">
+            <h3>Ep 04: The Guide</h3>
+            <p>We explore a strange book found at an estate sale. <span class="ghost-text">DO NOT READ PAGE 88.</span> Things get a little weird in the studio!</p>
+            
+            <a href="guide_index/index.html">Read the full transcript here...</a>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 The Night Archive. All rights reserved.</p>
+            <p>Hosted by Alex Vance. Produced by <span class="ghost-text">HELP ME SAM IS TRAPPED</span> Sam.</p>
+        </div>
+    </div>
+
+</body>
+</html>
